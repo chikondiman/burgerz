@@ -11,7 +11,7 @@ export default function App() {
           'Cheese',
           'Lettuce',
           'Tomatoes',
-          'Tomatoes'
+         
         ]}
       />
     </div>
