@@ -12,10 +12,9 @@ export default function CreateBurger(props) {
     switch (item) {
       case 'Cheese':
         return <Cheese key={index} />;
-    
       case 'Tomatoes':
         return <Tomatoes key={index} />;
-        case 'Lettuce':
+      case 'Lettuce':
         return <Lettuce key={index} />;
       default:
         return null;
