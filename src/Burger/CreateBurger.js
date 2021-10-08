@@ -5,7 +5,6 @@ import Cheese from "./BurgerComponents/Cheese";
 import Lettuce from "./BurgerComponents/Lettuce";
 import Tomatoes from "./BurgerComponents/Tomatoes";
 
-
 export default function CreateBurger(props) {
   const BurgerStack = props.burgerStack.map((item, index) => {
     switch (item) {
